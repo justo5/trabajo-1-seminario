@@ -1,3 +1,5 @@
-- Descargarse el repositorio
-- Crear una rama con el nombre de cada desarrollador 
+- Crear la base de datos.
+- Configurar la base de datos.
+- Subir usuarios ficticios a la base de datos.
+- Conectar el proyecto de springboot con la base de datos.
 
