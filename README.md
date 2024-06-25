@@ -12,3 +12,6 @@ incorporarán cambios. Crear una rama individual basada en esta para cada tarea.
 9. Una vez aprobado el PR incorporar los cambios a develop.
 10. Probar el correcto funcionamiento del código desarrollado.
 11. Preparar una daily para exponer lo trabajado en la clase siguiente.
+
+API:
+Se trata de un filtro de usuarios por medio del cualquier dato de la base en la que este registrado, y que al seleccionar un usuario de la lista, devuelva el nombre y la foto de perfil.
