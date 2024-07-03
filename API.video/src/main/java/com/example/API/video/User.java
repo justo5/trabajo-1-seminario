@@ -1,5 +1,9 @@
 package com.example.API.video;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 public class User {
 
     private int id;
@@ -7,36 +11,5 @@ public class User {
     private String email;
     private String foto;
 
-        public int getId() {
-            return id;
-        }
 
-        public void setId(int id) {
-            this.id = id;
-        }
-
-        public String getNombre() {
-            return nombre;
-        }
-
-        public void setNombre(String nombre) {
-            this.nombre = nombre;
-        }
-
-        public String getEmail() {
-            return email;
-        }
-
-        public void setEmail(String email) {
-            this.email = email;
-        }
-
-        public String getFoto() {
-            return foto;
-        }
-
-        public void setFoto(String foto) {
-            this.foto = foto;
-        }
-
-}
+ }
