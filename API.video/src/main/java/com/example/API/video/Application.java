@@ -12,4 +12,10 @@ public class Application {
 	}
 
 
+	//filtrado con sql
+		//filtra de la base de datos
+
+	//mostrar
+		//muetra los datos obtenidos
+
 }

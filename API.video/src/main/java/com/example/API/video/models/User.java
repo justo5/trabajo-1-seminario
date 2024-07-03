@@ -1,4 +1,4 @@
-package com.example.API.video;
+package com.example.API.video.models;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -10,6 +10,5 @@ public class User {
     private String nombre;
     private String email;
     private String foto;
-
 
  }
