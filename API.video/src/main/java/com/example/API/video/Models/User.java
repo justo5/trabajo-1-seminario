@@ -1,4 +1,4 @@
-package com.example.API.video.models;
+package com.example.API.video.Models;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -6,9 +6,8 @@ import lombok.Setter;
 @Setter
 public class User {
 
-    private int id;
+    private int idUser;
     private String nombre;
     private String email;
     private String foto;
-
  }
