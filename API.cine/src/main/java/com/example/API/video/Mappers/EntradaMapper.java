@@ -11,17 +11,17 @@ public class EntradaMapper {
 
     @Autowired // inyeccion de dependencia
     private EntradaService entradaService;
-    
+
     public Entrada entradarequest(EntradaRequest entradaRequest){
     Entrada entrada = new Entrada();
-    entrada.setValor(entradaRequest.setValor());
+    entrada.setValor(entradaRequest.getValor());
     entrada.setAsientoNumero(entradaRequest.getAsientoNumero());
     return entrada;
     }
 
     public Entrada entradaResponses(EntradaResponses entradaResponses){
         Entrada entrada = new Entrada();
-        entrada.setValor(entradaResponses.setValor());
+        entrada.setValor(entradaResponses.getValor());
         entrada.setAsientoNumero(entradaResponses.getAsientoNumero());
         return entrada;
     }
